@@ -20,7 +20,6 @@ import IncrementNumber from "@/components/IncrementNumber";
 import DecrementNumber from "@/components/DecrementNumber";
 import SetNumber from "@/components/SetNumber";
 import ShowAddress from "@/components/ShowAddress";
-import GetNumber from "@/components/GetNumber";
 
 export default function Home() {
   const [address, setAddress] = useState<string>("");
